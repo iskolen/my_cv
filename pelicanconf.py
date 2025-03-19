@@ -1,6 +1,6 @@
 AUTHOR = 'Вадим Петров'
 SITENAME = 'Резюме'
-SITEURL = ''
+SITEURL = 'https://iskolen.github.io/my_cv'
 
 PATH = 'content'
 TIMEZONE = 'Europe/Moscow'

@@ -20,7 +20,7 @@ GITHUB = 'iskolen'
 CAREER_SUMMARY = 'Студент 4 курса программной инженерии, увлечён программированием.'
 
 SKILLS = [
-    {'title': 'Python', 'level': '20'},
+    {'title': 'Python', 'level': '19'},
     {'title': 'C++', 'level': '10'},
     {'title': 'HTML5 & CSS', 'level': '8'},
     {'title': 'React', 'level': '5'},

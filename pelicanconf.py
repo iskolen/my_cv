@@ -7,7 +7,7 @@ TIMEZONE = 'Europe/Moscow'
 DEFAULT_LANG = 'ru'
 
 THEME = 'resume'
-CSS_FILE = 'main.css'
+CSS_FILE = 'main-2.css'
 
 NAME = 'Вадим'
 TAGLINE = 'Студент ПС-42'

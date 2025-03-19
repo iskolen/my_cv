@@ -1,0 +1,33 @@
+name: Pelican Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout репозитория
+        uses: actions/checkout@v2
+
+      - name: Настройка Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: Установка зависимостей
+        run: |
+          pip install --upgrade pip
+          pip install pelican Markdown
+
+      - name: Сборка сайта с Pelican
+        run: pelican content -o output -s pelicanconf.py
+
+      - name: Деплой на GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./output

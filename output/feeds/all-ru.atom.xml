@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Резюме</title><link href="/" rel="alternate"></link><link href="/feeds/all-ru.atom.xml" rel="self"></link><id>/</id><updated>2025-03-19T00:00:00+03:00</updated><entry><title>Резюме</title><link href="/reziume.html" rel="alternate"></link><published>2025-03-19T00:00:00+03:00</published><updated>2025-03-19T00:00:00+03:00</updated><author><name>Вадим Петров</name></author><id>tag:None,2025-03-19:/reziume.html</id><content type="html">&lt;h1&gt;Ваше Имя&lt;/h1&gt;
+&lt;h2&gt;Обо мне&lt;/h2&gt;
+&lt;p&gt;Краткая информация о себе и профессиональных целях.&lt;/p&gt;
+&lt;h2&gt;Опыт работы&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Должность&lt;/strong&gt;, Название компании (Годы работы)&lt;br&gt;
+  Описание обязанностей и достижений.&lt;/li&gt;
+&lt;/ul&gt;</content><category term="Resume"></category><category term="resume"></category><category term="CV"></category></entry></feed>
